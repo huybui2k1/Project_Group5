@@ -12,6 +12,6 @@ namespace Group5_Management_Library.Models
 
         public string Name { get; set; }
 
-        public virtual ICollection<User> Users { get; set; } = new List<User>();
+       // public virtual ICollection<User> Users { get; set; } = new List<User>();
     }
 }

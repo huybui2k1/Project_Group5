@@ -1,4 +1,6 @@
+E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\bin\Debug\net7.0\appsettings.json
 E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\bin\Debug\net7.0\Group5_Management_Library.deps.json
+E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\bin\Debug\net7.0\Group5_Management_Library.runtimeconfig.json
 E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\bin\Debug\net7.0\Group5_Management_Library.dll
 E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\bin\Debug\net7.0\Group5_Management_Library.pdb
 E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\obj\Debug\net7.0\Group5_Management_Library.csproj.AssemblyReference.cache
@@ -9,7 +11,5 @@ E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_L
 E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\obj\Debug\net7.0\Group5_Management_Library.dll
 E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\obj\Debug\net7.0\refint\Group5_Management_Library.dll
 E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\obj\Debug\net7.0\Group5_Management_Library.pdb
-E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\obj\Debug\net7.0\ref\Group5_Management_Library.dll
-E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\bin\Debug\net7.0\Group5_Management_Library.runtimeconfig.json
 E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\obj\Debug\net7.0\Group5_Management_Library.genruntimeconfig.cache
-E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\bin\Debug\net7.0\appsettings.json
+E:\TAILIEU_APTECH\PROJECT_COURSE_END\Group5_ManagementTravel\Group5_Management_Library\obj\Debug\net7.0\ref\Group5_Management_Library.dll

@@ -7,43 +7,35 @@
     <meta name="description" content="">
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-
-  <title>Đăng nhập</title>
-
+    <title>Đăng nhập</title>
     <!-- Bootstrap core CSS -->
     <link href="~/Admin_/assets/css/bootstrap.css" rel="stylesheet">
     <!--external css-->
     <link href="~/Admin_/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-
     <!-- Custom styles for this template -->
     <link href="~/Admin_/assets/css/style.css" rel="stylesheet">
     <link href="~/Admin_/assets/css/style-responsive.css" rel="stylesheet">
 </head>
-
 <body class="login-body">
-
     <!-- **********************************************************************************************************************************************************
     MAIN CONTENT
     *********************************************************************************************************************************************************** -->
-
     <div id="login-page">
         <div class="container">
-
-            <form class="form-login" method="post">
-               
+            <form class="form-login" asp-action="Login" method="post">
                 <h2 class="form-login-heading">sign in now</h2>
                 <div class="login-wrap">
-                    @Html.AntiForgeryToken() 
+                    @Html.AntiForgeryToken()
                     @Html.ValidationSummary(true, "", new {@class = "text-danger" })
-                     <div class="user-login-info">
-                     @Html.TextBoxFor(model=>model.UserName, new{@class ="form-control",@placeholder = "Tên đăng nhập",
-            @autofocus="autofocus"}) @Html.ValidationMessageFor(model =>
-            model.UserName, "", new { @class = "text-danger" })
-            @Html.TextBoxFor(model => model.Password, new { @class =
-            "form-control", @placeholder = "Mật khẩu", @type="password" })
-            @Html.ValidationMessageFor(model => model.Password, "", new { @class
-            = "text-danger" })
-          </div>
+                    <div class="user-login-info">
+                        @Html.TextBoxFor(model=>model.UserName, new{@class ="form-control",@placeholder = "Tên đăng nhập",
+                        @autofocus="autofocus"}) @Html.ValidationMessageFor(model =>
+                        model.UserName, "", new { @class = "text-danger" })
+                        @Html.TextBoxFor(model => model.Password, new { @class =
+                        "form-control", @placeholder = "Mật khẩu", @type="password" })
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class
+                        = "text-danger" })
+                    </div>
                     <label class="checkbox">
                         <span class="pull-right">
                             <a data-toggle="modal" href="login.html#myModal"> Forgot Password?</a>
@@ -88,7 +80,7 @@
                     </div>
                 </div>
                 <!-- modal -->
-       
+
             </form>
 
         </div>
@@ -106,6 +98,6 @@
     </script>
 
 
-    </body>
+</body>
 </html>
 

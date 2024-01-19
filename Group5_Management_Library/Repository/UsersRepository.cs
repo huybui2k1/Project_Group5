@@ -10,14 +10,14 @@ namespace Group5_Management_Library.Repository
 {
     public class UsersRepository : IUsersRepository
     {
-      /*  public IEnumerable<User> GetAll() => UsersDAO.Instance.GetAll();*/
+       // public IEnumerable<User> GetAll() => UsersDAO.Instance.GetAll();
         public void Insert(User user, UserDetail userDetail) => UsersDAO.Instance.Insert(user, userDetail);
         public void Update(User user, UserDetail userDetail) => UsersDAO.Instance.Update(user, userDetail);
         public User GetById(int id) => UsersDAO.Instance.GetById(id);
         public void Delete(User user) => UsersDAO.Instance.Delete(user);
         public IEnumerable<Role> GetAllRoles() => UsersDAO.Instance.GetAllRoles();
         public bool ChangeStatus(int id) => UsersDAO.Instance.ChangeStatus(id);
-      /*  public IEnumerable<UserDetail> GetUserDetailAll() => UsersDAO.Instance.GetUserDetailAll();*/
+        public IEnumerable<UserDetail> GetUserDetailAll() => UsersDAO.Instance.GetUserDetailAll();
         public void InsertUser(User user) => UsersDAO.Instance.InsertUser(user);
         public void InsertUserDetail(UserDetail userDetail) => UsersDAO.Instance.InsertUserDetail(userDetail);
         public void UpdateUser(User user) => UsersDAO.Instance.UpdateUser(user);

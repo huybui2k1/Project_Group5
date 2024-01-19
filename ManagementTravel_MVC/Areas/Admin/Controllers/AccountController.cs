@@ -8,21 +8,26 @@ namespace ManagementTravel_MVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [AllowAnonymous]
-    public class AccountController : Controller
+    public class AccountController : BaseController
     {
         public IActionResult Index()
         {
-            /*ViewData["Title"] = "Đăng nhập";
-            return RedirectToAction("Login", "Account", new { Areas = "Admin" });*/
-            return View();
+            ViewData["Title"] = "Đăng nhập";
+            return RedirectToAction("Login", "Account", new { Areas = "Admin" });
+            //return View();
         }
-        public IActionResult Login(/*string ReturnUrl = ""*/)
+        //public IActionResult Login(string ReturnUrl = "")
+        //{
+        //    ViewData["Title"] = "Đăng nhập";
+        //    LoginModel model = new LoginModel();
+        //    model.UserName = "admin";
+        //    model.Password = "admin";
+        //    model.ReturnUrl = ReturnUrl;
+        //    return View();
+        //}
+        public IActionResult Login()
         {
             ViewData["Title"] = "Đăng nhập";
-           /* LoginModel model = new LoginModel();
-            model.UserName = "admin";
-            model.Password= "admin";
-            model.ReturnUrl= ReturnUrl;*/
             return View();
         }
         [HttpPost]

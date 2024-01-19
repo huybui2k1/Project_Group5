@@ -28,7 +28,7 @@ namespace Group5_Management_Library.Models
         public virtual DbSet<Role> Roles { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<User> Users { get; set; }
-        public virtual DbSet<UserDetail> UserDetails { get; set; }
+       public virtual DbSet<UserDetail> UserDetails { get; set; }
         public virtual DbSet<Payment> Payments { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -39,5 +39,8 @@ namespace Group5_Management_Library.Models
             IConfigurationRoot configuration = builder.Build();
             optionsBuilder.UseSqlServer(configuration.GetConnectionString("Travel_Admin1501"));
         }
+        protected override void OnModelCreating(ModelBuilder optionsBuilder)
+        { }
+
     }
 }

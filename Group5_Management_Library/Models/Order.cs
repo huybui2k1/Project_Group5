@@ -20,6 +20,6 @@ namespace Group5_Management_Library.Models
 
         public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
 
-        public virtual User User { get; set; }
+       // public virtual User User { get; set; }
     }
 }

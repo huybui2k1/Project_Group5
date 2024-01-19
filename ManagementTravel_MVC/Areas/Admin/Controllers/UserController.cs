@@ -51,7 +51,7 @@ namespace ManagementTravel_MVC.Areas.Admin.Controllers
             {
             /*    Roles = (ICollection<Role>)roles,*/
                 //Users = (ICollection<User>)users,
-                UserDetails = (ICollection<UserDetail>)usersdetail,
+               // UserDetails = (ICollection<UserDetail>)usersdetail,
             };
             /*  return View(new RoleUser
               {
@@ -61,7 +61,7 @@ namespace ManagementTravel_MVC.Areas.Admin.Controllers
               });*/
             int pageSize = 3;
             int pageNumber = (page ?? 1);
-            roleUser.Users = users.ToPagedList(pageNumber, pageSize);
+           // roleUser.Users = users.ToPagedList(pageNumber, pageSize);
             return View(roleUser);
         }
 
